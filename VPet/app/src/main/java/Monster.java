@@ -52,6 +52,6 @@ public abstract class Monster {
     }
 
     public Monster(String img, int power, int speed, int agility, List<Monster> evolutions) {
-        
+
     }
 }
