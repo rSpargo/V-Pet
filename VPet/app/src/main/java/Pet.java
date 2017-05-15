@@ -27,6 +27,7 @@ public class Pet extends Monster {
 
     public boolean setX(int x) {
         this.x = x;
+        return true;
     }
 
     public int getY() {
@@ -35,6 +36,7 @@ public class Pet extends Monster {
 
     public boolean setY(int y) {
         this.y = y;
+        return true;
     }
 
     public int getHappiness() {
@@ -43,6 +45,7 @@ public class Pet extends Monster {
 
     public boolean setHappiness(int happiness) {
         this.happiness = happiness;
+        return true;
     }
 
     public int getHunger() {
@@ -51,6 +54,7 @@ public class Pet extends Monster {
 
     public boolean setHunger(int hunger) {
         this.hunger = hunger;
+        return true;
     }
 
     public double getWeight() {
@@ -59,6 +63,7 @@ public class Pet extends Monster {
 
     public boolean setWeight(double weight) {
         this.weight = weight;
+        return true;
     }
 
     public float getDiscipline() {
@@ -67,6 +72,7 @@ public class Pet extends Monster {
 
     public boolean setDiscipline(float discipline) {
         this.discipline = discipline;
+        return true;
     }
 
     public int getCareMistakes() {
@@ -75,6 +81,7 @@ public class Pet extends Monster {
 
     public boolean setCareMistakes(int careMistakes) {
         this.careMistakes = careMistakes;
+        return true;
     }
 
     public int getAge() {
@@ -83,6 +90,7 @@ public class Pet extends Monster {
 
     public boolean setAge(int age) {
         this.age = age;
+        return true;
     }
 
     public List getSkills() {
@@ -91,6 +99,7 @@ public class Pet extends Monster {
 
     public boolean setSkills(List skills) {
         this.skills = skills;
+        return true;
     }
 
     public boolean isDirty() {
@@ -99,6 +108,7 @@ public class Pet extends Monster {
 
     public boolean setDirty(boolean dirty) {
         isDirty = dirty;
+        return true;
     }
 
     public boolean isTired() {
@@ -107,6 +117,7 @@ public class Pet extends Monster {
 
     public boolean setTired(boolean tired) {
         isTired = tired;
+        return true;
     }
 
     public boolean isSick() {
@@ -115,6 +126,7 @@ public class Pet extends Monster {
 
     public boolean setSick(boolean sick) {
         isSick = sick;
+        return true;
     }
 
     public int getDirtyTime() {
@@ -123,6 +135,7 @@ public class Pet extends Monster {
 
     public boolean setDirtyTime(int dirtyTime) {
         this.dirtyTime = dirtyTime;
+        return true;
     }
 
     public int getTiredTime() {
@@ -131,6 +144,7 @@ public class Pet extends Monster {
 
     public boolean setTiredTime(int tiredTime) {
         this.tiredTime = tiredTime;
+        return true;
     }
 
     public int getSickTime() {
@@ -139,6 +153,7 @@ public class Pet extends Monster {
 
     public boolean setSickTime(int sickTime) {
         this.sickTime = sickTime;
+        return true;
     }
 
     public boolean giveAlert() {
