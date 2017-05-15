@@ -4,7 +4,10 @@
 
 public class Battle {
     public Pet userPet;
-    public Monster opponenetPet;
+    public Monster opponentPet;
+    public enum Difficulty{
+        EASY, MEDIUM, HARD;
+    }
     private Difficulty difficulty;
 
     private boolean beginBattle() {

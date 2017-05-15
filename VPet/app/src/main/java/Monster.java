@@ -12,7 +12,7 @@ public abstract class Monster {
     private List<Monster> evolutions; //List isn't going to work because it's abstract.
 
     public String getImg(){
-        return null;
+        return img;
     }
 
     public boolean setImg(String img) {
@@ -20,7 +20,7 @@ public abstract class Monster {
     }
 
     public int getPower() {
-        return 0;
+        return power;
     }
 
     public boolean setPower(int power) {
@@ -28,7 +28,7 @@ public abstract class Monster {
     }
 
     public int getSpeed() {
-        return 0;
+        return speed;
     }
 
     public boolean setSpeed(int speed) {
@@ -36,7 +36,7 @@ public abstract class Monster {
     }
 
     public int getAgility() {
-        return 0;
+        return agility;
     }
 
     public boolean setAgility(int agility) {
@@ -52,6 +52,10 @@ public abstract class Monster {
     }
 
     public Monster(String img, int power, int speed, int agility, List<Monster> evolutions) {
-
+        this.img = img;
+        this.power = power;
+        this.speed = speed;
+        this.agility = agility;
+        this.evolutions = evolutions;
     }
 }
