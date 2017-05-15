@@ -20,4 +20,7 @@ public abstract class Consumable {
         this.img = img;
         return true;
     }
+    public Consumable(String img){
+
+    }
 }

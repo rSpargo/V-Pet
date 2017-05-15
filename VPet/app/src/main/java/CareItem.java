@@ -5,9 +5,11 @@
 public class CareItem extends Consumable implements IRemedy {
     private AilmentType ailment;
 
-    public boolean dropItem(String img){
-        return true;
-    };
+    public CareItem(String img, AilmentType ailment) {
+        super(img);
+        setAilment(ailment);
+    }
+
     public boolean setAilment(AilmentType ailment){
         this.ailment = ailment;
         return true;
