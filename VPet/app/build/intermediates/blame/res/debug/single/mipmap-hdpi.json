@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Android Studio\\VPET\\V-Pet\\VPet\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher.png",
+        "source": "C:\\Android Studio\\VPET\\V-Pet\\VPet\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Android Studio\\VPET\\V-Pet\\VPet\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher_round.png",
+        "source": "C:\\Android Studio\\VPET\\V-Pet\\VPet\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    }
+]
