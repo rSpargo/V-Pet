@@ -47,28 +47,28 @@
                 android:paddingTop="0dp">
 
                 <Button
-                    android:id="@+id/button-top-1"
+                    android:id="@+id/stats_button"
                     android:layout_width="90dip"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="0dp"
                     android:text="Stats" />
 
                 <Button
-                    android:id="@+id/button-top-2"
+                    android:id="@+id/hand_button"
                     android:layout_width="90dip"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="0dp"
                     android:text="Hand" />
 
                 <Button
-                    android:id="@+id/button-top-3"
+                    android:id="@+id/shop_button"
                     android:layout_width="90dip"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="0dp"
                     android:text="Shop" />
 
                 <Button
-                    android:id="@+id/button-top-4"
+                    android:id="@+id/games_button"
                     android:layout_width="90dip"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="0dp"
@@ -91,28 +91,28 @@
                 android:paddingTop="0dp">
 
                 <Button
-                    android:id="@+id/button-bottom-1"
+                    android:id="@+id/light_button"
                     android:layout_width="90dip"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="0dp"
                     android:text="Light" />
 
                 <Button
-                    android:id="@+id/button-bottom-2"
+                    android:id="@+id/soap_button"
                     android:layout_width="90dip"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="0dp"
                     android:text="Soap" />
 
                 <Button
-                    android:id="@+id/button-bottom-3"
+                    android:id="@+id/food_button"
                     android:layout_width="90dip"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="0dp"
                     android:text="Food" />
 
                 <Button
-                    android:id="@+id/button-bottom-4"
+                    android:id="@+id/pill_button"
                     android:layout_width="90dip"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="0dp"
