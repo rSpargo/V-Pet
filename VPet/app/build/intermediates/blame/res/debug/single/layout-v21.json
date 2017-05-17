@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Android Studio\\VPET\\V-Pet\\VPet\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
+        "source": "C:\\Users\\Spargo\\.android\\build-cache\\2a5060f58a97037eae18f638d776531cc809ba98\\output\\res\\layout-v21\\notification_action.xml"
+    },
+    {
+        "merged": "C:\\Android Studio\\VPET\\V-Pet\\VPet\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\Spargo\\.android\\build-cache\\2a5060f58a97037eae18f638d776531cc809ba98\\output\\res\\layout-v21\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "C:\\Android Studio\\VPET\\V-Pet\\VPet\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\Spargo\\.android\\build-cache\\2a5060f58a97037eae18f638d776531cc809ba98\\output\\res\\layout-v21\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "C:\\Android Studio\\VPET\\V-Pet\\VPet\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\Spargo\\.android\\build-cache\\2a5060f58a97037eae18f638d776531cc809ba98\\output\\res\\layout-v21\\notification_template_custom_big.xml"
+    }
+]

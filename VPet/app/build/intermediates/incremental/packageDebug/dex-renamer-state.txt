@@ -1,0 +1,7 @@
+#Tue May 16 10:29:04 MDT 2017
+base.0=C\:\\Android Studio\\VPET\\V-Pet\\VPet\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_5b100ba2353431f2c59dd9ca06cb40f20de5c838
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Android Studio\\VPET\\V-Pet\\VPet\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_9d958f5eee3c72daf8413102b20ace603c9f91c5\\classes.dex
+base.1=C\:\\Android Studio\\VPET\\V-Pet\\VPet\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_9d958f5eee3c72daf8413102b20ace603c9f91c5
+file.0=C\:\\Android Studio\\VPET\\V-Pet\\VPet\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_5b100ba2353431f2c59dd9ca06cb40f20de5c838\\classes.dex
