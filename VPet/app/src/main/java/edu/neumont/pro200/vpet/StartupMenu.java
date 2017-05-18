@@ -100,8 +100,8 @@ public class StartupMenu extends AppCompatActivity {
         @Override
         public void onCheckedChanged(final RadioGroup group, final int i) {
             for (int j = 0; j < group.getChildCount(); j++) {
-                final ToggleButton view = (ToggleButton) group.getChildAt(j);
-                view.setChecked(view.getId() == i);
+                final ToggleButton button = (ToggleButton) group.getChildAt(j);
+                button.setChecked(button.getId() == i);
             }
         }
     };
@@ -109,6 +109,10 @@ public class StartupMenu extends AppCompatActivity {
     public void onToggle(View view) {
         ((RadioGroup)view.getParent()).check(view.getId());
     }
+
+//    static final ToggleButton.OnClickListener StatToggleListener = new ToggleButton.OnClickListener() {
+//
+//    }
 
 //    @Override
 //    protected void onPostCreate(Bundle savedInstanceState) {
