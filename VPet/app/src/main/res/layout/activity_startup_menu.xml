@@ -86,6 +86,34 @@
                 android:layout_height="100dip"
                 android:layout_weight="1.00">
 
+                <LinearLayout
+                    android:layout_width="198dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/medicine_menu"
+                    android:layout_column="11"
+                    android:layout_marginTop="0dp"
+                    android:layout_row="1"
+                    android:gravity="bottom|center_horizontal"
+                    android:orientation="horizontal"
+                    android:paddingTop="0dp"
+                    android:visibility="invisible">
+
+                    <Button
+                        android:id="@+id/medicine_button"
+                        android:layout_width="95dip"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="0dp"
+                        android:text="Medicine" />
+
+                    <Button
+                        android:id="@+id/bandage_button"
+                        android:layout_width="95dip"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="0dp"
+                        android:text="Bandage" />
+
+                </LinearLayout>
+
             </GridLayout>
 
             <LinearLayout
@@ -127,7 +155,6 @@
                     android:textOn="Pill" />
             </LinearLayout>
         </LinearLayout>
-
     </FrameLayout>
 
 </FrameLayout>

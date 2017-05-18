@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Android Studio\\VPET\\V-Pet\\VPet\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+        "outputFile": "C:\\Users\\bwoods\\Documents\\Neumont\\vpet\\VPet\\V-Pet\\VPet\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 96
                 },
                 "from": {
-                    "file": "C:\\Users\\Spargo\\.android\\build-cache\\c1c7a79fd67579e9df471c89b736ebcfb176614f\\output\\res\\values\\values.xml",
+                    "file": "C:\\Users\\bwoods\\.android\\build-cache\\4d6c08856edf7ae0fac5e3c4530ad05c57e701e4\\output\\res\\values\\values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
