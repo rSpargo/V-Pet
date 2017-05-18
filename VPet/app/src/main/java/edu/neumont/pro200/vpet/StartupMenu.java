@@ -1,12 +1,15 @@
 package edu.neumont.pro200.vpet;
 
 import android.annotation.SuppressLint;
+import android.support.annotation.IdRes;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.MotionEvent;
 import android.view.View;
+import android.widget.RadioGroup;
+import android.widget.ToggleButton;
 
 /**
  * An example full-screen activity that shows and hides the system UI (i.e.
@@ -86,22 +89,25 @@ public class StartupMenu extends AppCompatActivity {
 
         setContentView(R.layout.activity_startup_menu);
 
+        ((RadioGroup) findViewById(R.id.menu_group)).setOnCheckedChangeListener(ToggleListener);
         mVisible = true;
         mControlsView = findViewById(R.id.fullscreen_content_controls);
         mContentView = findViewById(R.id.fullscreen_content);
 
+    }
 
-        // Set up the user interaction to manually show or hide the system UI.
-        mContentView.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                toggle();
+    static final RadioGroup.OnCheckedChangeListener ToggleListener = new RadioGroup.OnCheckedChangeListener() {
+        @Override
+        public void onCheckedChanged(final RadioGroup group, final int i) {
+            for (int j = 0; j < group.getChildCount(); j++) {
+                final ToggleButton view = (ToggleButton) group.getChildAt(j);
+                view.setChecked(view.getId() == i);
             }
-        });
+        }
+    };
 
-        // Upon interacting with UI controls, delay any scheduled hide()
-        // operations to prevent the jarring behavior of controls going away
-        // while interacting with the UI.
+    public void onToggle(View view) {
+        ((RadioGroup)view.getParent()).check(view.getId());
     }
 
 //    @Override
@@ -113,14 +119,6 @@ public class StartupMenu extends AppCompatActivity {
 //        // are available.
 //        delayedHide(100);
 //    }
-
-    private void toggle() {
-        if (mVisible) {
-            hide();
-        } else {
-            show();
-        }
-    }
 
     private void hide() {
         // Hide UI first
