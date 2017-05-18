@@ -32,10 +32,9 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_gravity="center"
-            android:background="@color/black_overlay"
             android:orientation="vertical"
-            tools:ignore="UselessParent"
-            android:weightSum="1">
+            android:weightSum="1"
+            tools:ignore="UselessParent">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -45,33 +44,41 @@
                 android:orientation="horizontal"
                 android:paddingTop="0dp">
 
-                <Button
+                <ToggleButton
                     android:id="@+id/stats_button"
                     android:layout_width="90dip"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="0dp"
-                    android:text="Stats" />
+                    android:text="Stats"
+                    android:textOff="Stats"
+                    android:textOn="Stats" />
 
-                <Button
+                <ToggleButton
                     android:id="@+id/hand_button"
                     android:layout_width="90dip"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="0dp"
-                    android:text="Hand" />
+                    android:text="Hand"
+                    android:textOff="Hand"
+                    android:textOn="Hand" />
 
-                <Button
+                <ToggleButton
                     android:id="@+id/shop_button"
                     android:layout_width="90dip"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="0dp"
-                    android:text="Shop" />
+                    android:text="Shop"
+                    android:textOff="Shop"
+                    android:textOn="Shop" />
 
-                <Button
+                <ToggleButton
                     android:id="@+id/games_button"
                     android:layout_width="90dip"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="0dp"
-                    android:text="Games" />
+                    android:text="Games"
+                    android:textOff="Games"
+                    android:textOn="Games" />
             </LinearLayout>
 
             <GridLayout
@@ -110,12 +117,14 @@
                     android:layout_marginTop="0dp"
                     android:text="Food" />
 
-                <Button
+                <ToggleButton
                     android:id="@+id/pill_button"
                     android:layout_width="90dip"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="0dp"
-                    android:text="Pill" />
+                    android:text="Pill"
+                    android:textOff="Pill"
+                    android:textOn="Pill" />
             </LinearLayout>
         </LinearLayout>
 
