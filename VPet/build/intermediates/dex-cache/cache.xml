@@ -3,201 +3,21 @@
 
     <item
         is-multidex="true"
-        jar="C:\Users\Spargo\.android\build-cache\2a5060f58a97037eae18f638d776531cc809ba98\output\jars\classes.jar"
+        jar="C:\Users\bwoods\Documents\Neumont\vpet\VPet\V-Pet\VPet\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.3"
-        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
-        <dex dex="C:\Android Studio\VPET\V-Pet\VPet\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_87113a7ca5512dcb8f1d16b219e2f48f1036f61f\classes.dex" />
+        sha1="e17af26ccefb56118196c9db3251a7151ce4dd19">
+        <dex dex="C:\Users\bwoods\Documents\Neumont\vpet\VPet\V-Pet\VPet\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_cd76d5016a937abe4effbf1625c8a880d24eb3f5\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Spargo\.android\build-cache\27fa332e8ef6e29b4951e92dde84b303166753d0\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.3"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Android Studio\VPET\V-Pet\VPet\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_fd1661aa98f85479ccc100ae244fe04dc1e4343f\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Spargo\.android\build-cache\525082acc5d8175bc09889d933d1e5f1f857d63d\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.3"
-        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
-        <dex dex="C:\Android Studio\VPET\V-Pet\VPet\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a8d1ae1cf8c43bc21921dfd70ffcc70fd10c75b8\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Spargo\.android\build-cache\525082acc5d8175bc09889d933d1e5f1f857d63d\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
-        <dex dex="C:\Android Studio\VPET\V-Pet\VPet\app\build\intermediates\pre-dexed\debug\classes_a8d1ae1cf8c43bc21921dfd70ffcc70fd10c75b8.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Spargo\.android\build-cache\27fa332e8ef6e29b4951e92dde84b303166753d0\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Android Studio\VPET\V-Pet\VPet\app\build\intermediates\pre-dexed\debug\classes_fd1661aa98f85479ccc100ae244fe04dc1e4343f.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Spargo\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.3"
-        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
-        <dex dex="C:\Android Studio\VPET\V-Pet\VPet\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.3.1_e29082360bc7122fa459b5ebade7e586295f17b1\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Android Studio\VPET\V-Pet\VPet\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.3"
-        sha1="4b6e1823fb2157b94685a0d2ea0e526803e75dd2">
-        <dex dex="C:\Android Studio\VPET\V-Pet\VPet\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_9d958f5eee3c72daf8413102b20ace603c9f91c5\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Spargo\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
-        <dex dex="C:\Android Studio\VPET\V-Pet\VPet\app\build\intermediates\pre-dexed\debug\support-annotations-25.3.1_e29082360bc7122fa459b5ebade7e586295f17b1.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Spargo\.android\build-cache\425230cb00e25003a61235ae206b8961324fb835\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
-        <dex dex="C:\Android Studio\VPET\V-Pet\VPet\app\build\intermediates\pre-dexed\debug\classes_9b193f3c3c0b22800226c2d29d5656f1b2c5a63f.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Spargo\.android\build-cache\2a18c306073f6ad7f5415b6befd2e623bcff8735\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.3"
-        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
-        <dex dex="C:\Android Studio\VPET\V-Pet\VPet\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_1909f63f4f61f35bf2a82eaa160dca7cc13fbe90\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Spargo\.android\build-cache\90cc90440c3d55067983731e4021aa9fb5786576\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.3"
-        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
-        <dex dex="C:\Android Studio\VPET\V-Pet\VPet\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_15181f3bbd83449615e2b118164381c0e8678096\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Spargo\.android\build-cache\2a18c306073f6ad7f5415b6befd2e623bcff8735\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
-        <dex dex="C:\Android Studio\VPET\V-Pet\VPet\app\build\intermediates\pre-dexed\debug\classes_1909f63f4f61f35bf2a82eaa160dca7cc13fbe90.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Spargo\.android\build-cache\0b9872c157c2105215703d994c63ea5af1c011e0\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.3"
-        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
-        <dex dex="C:\Android Studio\VPET\V-Pet\VPet\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2ee2b58d6a31cba6f497e57b0754f40fe6918011\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Spargo\.android\build-cache\0b9872c157c2105215703d994c63ea5af1c011e0\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
-        <dex dex="C:\Android Studio\VPET\V-Pet\VPet\app\build\intermediates\pre-dexed\debug\classes_2ee2b58d6a31cba6f497e57b0754f40fe6918011.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Spargo\.android\build-cache\fe377a279b2387853e0066840f8e8a486276733b\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
-        <dex dex="C:\Android Studio\VPET\V-Pet\VPet\app\build\intermediates\pre-dexed\debug\classes_d7c94746e268ee757f05e35b7dd48fdd6422cac6.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Android Studio\VPET\V-Pet\VPet\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jar="C:\Users\bwoods\Documents\Neumont\vpet\VPet\V-Pet\VPet\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.3"
         sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
-        <dex dex="C:\Android Studio\VPET\V-Pet\VPet\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_5b100ba2353431f2c59dd9ca06cb40f20de5c838\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Spargo\.android\build-cache\fe377a279b2387853e0066840f8e8a486276733b\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.3"
-        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
-        <dex dex="C:\Android Studio\VPET\V-Pet\VPet\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d7c94746e268ee757f05e35b7dd48fdd6422cac6\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Spargo\.android\build-cache\1d5ce4974a29257b817a6b4f06813d588d331324\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.3"
-        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
-        <dex dex="C:\Android Studio\VPET\V-Pet\VPet\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ac2dad3f14359c70b65529794eb15dfedfb0ae98\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Spargo\.android\build-cache\2a5060f58a97037eae18f638d776531cc809ba98\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
-        <dex dex="C:\Android Studio\VPET\V-Pet\VPet\app\build\intermediates\pre-dexed\debug\classes_87113a7ca5512dcb8f1d16b219e2f48f1036f61f.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Spargo\.android\build-cache\425230cb00e25003a61235ae206b8961324fb835\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.3"
-        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
-        <dex dex="C:\Android Studio\VPET\V-Pet\VPet\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9b193f3c3c0b22800226c2d29d5656f1b2c5a63f\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Spargo\.android\build-cache\90cc90440c3d55067983731e4021aa9fb5786576\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
-        <dex dex="C:\Android Studio\VPET\V-Pet\VPet\app\build\intermediates\pre-dexed\debug\classes_15181f3bbd83449615e2b118164381c0e8678096.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Spargo\.android\build-cache\1d5ce4974a29257b817a6b4f06813d588d331324\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
-        <dex dex="C:\Android Studio\VPET\V-Pet\VPet\app\build\intermediates\pre-dexed\debug\classes_ac2dad3f14359c70b65529794eb15dfedfb0ae98.jar" />
+        <dex dex="C:\Users\bwoods\Documents\Neumont\vpet\VPet\V-Pet\VPet\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_746f41f0d1f00f33bcfc0587b6e25a00818e2edd\classes.dex" />
     </item>
 
 </items>

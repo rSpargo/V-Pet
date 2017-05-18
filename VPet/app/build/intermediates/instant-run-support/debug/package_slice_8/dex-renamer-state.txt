@@ -1,4 +1,4 @@
-#Tue May 16 10:29:04 MDT 2017
-base.0=C\:\\Android Studio\\VPET\\V-Pet\\VPet\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_8
+#Thu May 18 15:36:08 MDT 2017
+base.0=C\:\\Users\\bwoods\\Documents\\Neumont\\vpet\\VPet\\V-Pet\\VPet\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_8
 renamed.0=classes.dex
-file.0=C\:\\Android Studio\\VPET\\V-Pet\\VPet\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_8\\classes.dex
+file.0=C\:\\Users\\bwoods\\Documents\\Neumont\\vpet\\VPet\\V-Pet\\VPet\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_8\\classes.dex

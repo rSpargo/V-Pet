@@ -1,9 +1,10 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#0099cc"
+    android:background="#ffffff"
     tools:context="edu.neumont.pro200.vpet.StartupMenu">
 
     <!-- The primary full-screen view. This can be replaced with whatever view
@@ -15,8 +16,7 @@
         android:layout_height="match_parent"
         android:gravity="center"
         android:keepScreenOn="true"
-        android:text="@string/dummy_content"
-        android:textColor="#33b5e5"
+        android:textColor="#000000"
         android:textSize="50sp"
         android:textStyle="bold" />
 
@@ -27,31 +27,171 @@
         android:layout_height="match_parent"
         android:fitsSystemWindows="true">
 
-        <LinearLayout
+
+        <RelativeLayout
             android:id="@+id/fullscreen_content_controls"
-            style="?metaButtonBarStyle"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="bottom|center_horizontal"
-            android:background="@color/black_overlay"
-            android:orientation="horizontal"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:weightSum="1"
             tools:ignore="UselessParent">
 
-            <Button
-                android:id="@+id/dummy_button"
-                style="?metaButtonBarButtonStyle"
-                android:layout_width="0dp"
+
+            <RadioGroup
+                android:id="@+id/menu_group"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="This is a Button" />
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
 
-        </LinearLayout>
+                <ToggleButton
+                    android:id="@+id/stats_button"
+                    android:layout_width="90dip"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:onClick="onToggle"
+                    android:text="Stats"
+                    android:textOff="Stats"
+                    android:textOn="Stats" />
+
+                <ToggleButton
+                    android:id="@+id/hand_button"
+                    android:layout_width="90dip"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:onClick="toggleHandMenu"
+                    android:text="Hand"
+                    android:textOff="Hand"
+                    android:textOn="Hand" />
+
+                <ToggleButton
+                    android:id="@+id/shop_button"
+                    android:layout_width="90dip"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:onClick="onToggle"
+                    android:text="Shop"
+                    android:textOff="Shop"
+                    android:textOn="Shop" />
+
+                <ToggleButton
+                    android:id="@+id/games_button"
+                    android:layout_width="90dip"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:onClick="onToggle"
+                    android:text="Games"
+                    android:textOff="Games"
+                    android:textOn="Games" />
+
+            </RadioGroup>
+
+
+            <LinearLayout
+                android:id="@+id/hand_menu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/menu_group"
+                android:layout_column="1"
+                android:layout_row="24"
+                android:gravity="bottom|left|center_horizontal"
+                android:onClick="toggleHandMenu"
+                android:orientation="horizontal"
+                android:paddingTop="0dp"
+                android:visibility="invisible">
+
+                <Button
+                    android:id="@+id/praise_button"
+                    android:layout_width="95dip"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:text="Praise" />
+
+                <Button
+                    android:id="@+id/scold_button"
+                    android:layout_width="95dip"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:text="Scold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/medicine_menu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_row="0"
+                android:gravity="bottom|right|center"
+                android:orientation="horizontal"
+                android:paddingTop="0dp"
+                android:visibility="invisible"
+                android:layout_above="@+id/linearLayout"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true">
+
+                <Button
+                    android:id="@+id/medicine_button"
+                    android:layout_width="95dip"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:text="Medicine" />
+
+                <Button
+                    android:id="@+id/bandage_button"
+                    android:layout_width="95dip"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:text="Bandage" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="bottom|center_horizontal"
+                android:orientation="horizontal"
+                android:paddingTop="0dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:id="@+id/linearLayout">
+
+                <Button
+                    android:id="@+id/light_button"
+                    android:layout_width="90dip"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:text="Light" />
+
+                <Button
+                    android:id="@+id/soap_button"
+                    android:layout_width="90dip"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:text="Soap" />
+
+                <Button
+                    android:id="@+id/food_button"
+                    android:layout_width="90dip"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:text="Food" />
+
+                <ToggleButton
+                    android:id="@+id/pill_button"
+                    android:layout_width="90dip"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:onClick="toggleMedicineMenu"
+                    android:text="Pill"
+                    android:textOff="Pill"
+                    android:textOn="Pill" />
+            </LinearLayout>
+        </RelativeLayout>
     </FrameLayout>
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@android:color/holo_green_dark" />
 
 </FrameLayout>
