@@ -20,21 +20,20 @@ public abstract class Game extends AppCompatActivity implements CompoundButton.O
     private Pet pet = new Pet("", 0, 0, 0, null);
     private Screen screen = new Screen();
     private Menu menu = new Menu(0,0,"",0,false,null);
-    private android.widget.ToggleButton pill_button = (ToggleButton) findViewById(R.id.pill_button);
-    private android.widget.LinearLayout medicine_menu  = (LinearLayout) findViewById(R.id.medicine_menu);
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_startup_menu);
-        pill_button.setOnCheckedChangeListener(togglePillMenu);
+     //   pill_button.setOnCheckedChangeListener(togglePillMenu);
     }
 
-    final CompoundButton.OnCheckedChangeListener togglePillMenu = new CompoundButton.OnCheckedChangeListener() {
+    final static CompoundButton.OnCheckedChangeListener togglePillMenu = new CompoundButton.OnCheckedChangeListener() {
         @Override
         public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-            pill_button.setText("bloop");
-            medicine_menu.setVisibility(View.VISIBLE);
+    //        buttonView.setVisibility(View.INVISIBLE);
+           // pill_button.setText("bloop");
+           // medicine_menu.setVisibility(View.VISIBLE);
 
         }
     };

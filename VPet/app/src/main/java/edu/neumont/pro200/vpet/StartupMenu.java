@@ -7,6 +7,8 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.view.MotionEvent;
 import android.view.View;
+import android.widget.RadioGroup;
+import android.widget.ToggleButton;
 
 /**
  * An example full-screen activity that shows and hides the system UI (i.e.
@@ -80,45 +82,61 @@ public class StartupMenu extends AppCompatActivity {
         }
     };
 
+//    private android.widget.LinearLayout medicine_menu  = (LinearLayout) findViewById(R.id.medicine_menu);
+
+//    static final CompoundButton.OnCheckedChangeListener togglePillMenu = new CompoundButton.OnCheckedChangeListener() {
+//        @Override
+//        public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+//            buttonView.setVisibility(View.VISIBLE);
+//
+//           // medicine_menu.setVisibility(View.INVISIBLE);
+//        }
+//    };
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.activity_startup_menu);
-
+        ((RadioGroup) findViewById(R.id.menu_group)).setOnCheckedChangeListener(ToggleListener);
+//        ((ToggleButton) findViewById(R.id.pill_button)).setOnCheckedChangeListener(togglePillMenu);
         mVisible = true;
         mControlsView = findViewById(R.id.fullscreen_content_controls);
         mContentView = findViewById(R.id.fullscreen_content);
 
-
-        // Set up the user interaction to manually show or hide the system UI.
-        mContentView.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                toggle();
-            }
-        });
-
-        // Upon interacting with UI controls, delay any scheduled hide()
-        // operations to prevent the jarring behavior of controls going away
-        // while interacting with the UI.
     }
 
-//    @Override
-//    protected void onPostCreate(Bundle savedInstanceState) {
-//        super.onPostCreate(savedInstanceState);
-//
-//        // Trigger the initial hide() shortly after the activity has been
-//        // created, to briefly hint to the user that UI controls
-//        // are available.
-//        delayedHide(100);
-//    }
+    static final RadioGroup.OnCheckedChangeListener ToggleListener = new RadioGroup.OnCheckedChangeListener() {
+        @Override
+        public void onCheckedChanged(final RadioGroup group, final int i) {
+            for (int j = 0; j < group.getChildCount(); j++) {
+                final ToggleButton view = (ToggleButton) group.getChildAt(j);
+                view.setChecked(view.getId() == i);
+            }
+        }
+    };
 
-    private void toggle() {
-        if (mVisible) {
-            hide();
-        } else {
-            show();
+    public void onToggle(View view){
+        ((RadioGroup)view.getParent()).check(view.getId());
+        toggleHandMenu(view);
+    }
+
+    public void toggleMedicineMenu(View view){
+
+        ToggleButton pill_button = (ToggleButton) findViewById(R.id.pill_button);
+        if(pill_button.isChecked()){
+            findViewById(R.id.medicine_menu).setVisibility(View.VISIBLE);
+        }else{
+            findViewById(R.id.medicine_menu).setVisibility(View.INVISIBLE);
+        }
+    }
+    public void toggleHandMenu(View view) {
+        ((RadioGroup)view.getParent()).check(view.getId());
+        ToggleButton hand_button = (ToggleButton) findViewById(R.id.hand_button);
+        if(hand_button.isChecked()){
+            findViewById(R.id.hand_menu).setVisibility(View.VISIBLE);
+        }else{
+            findViewById(R.id.hand_menu).setVisibility(View.INVISIBLE);
         }
     }
 
